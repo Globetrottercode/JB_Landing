@@ -1,4 +1,5 @@
 import { Carousel } from "antd";
+import { RightOutlined } from "@ant-design/icons";
 
 export default function LastSection() {
   return (
@@ -10,20 +11,89 @@ export default function LastSection() {
         </div>
         <div className="  h-2/4 w-[100%] ">
           <Carousel slidesToShow={3} className=" w-full  " autoplay>
-            <div className="carousel_item h-[4rem] md:h-[6rem] lg:h-[9rem] w-10  ">
-              <div className="c-item h-[65%] w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200"></div>
+            <div className="carousel_item h-[4rem]  md:h-[6rem] lg:h-[9rem] lg:w-10   ">
+              <div className="c-item justify-around items-center w-[85%] flex h-[65%] md:w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200">
+                <div className="flex items-center w-[70%] h-[70%]  ml-[10%]">
+                  <div className="w-[40%] md:w-[35%] h-[90%] bg-gray-200 rounded-full"></div>
+                  <div className="w-[60%] md:w-[65%] h-full  flex flex-col justify-between pl-[2%]">
+                    <p className="text-[0.3rem] md:text-[1rem] font-bold md:font-normal">
+                      Marketing
+                    </p>
+                    <p className="text-[0.25rem] md:text-[1rem] font-bold md:font-normal">
+                      201 openings
+                    </p>
+                  </div>
+                </div>
+                <RightOutlined className="  lg:pr-0 text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] " />
+              </div>
             </div>
-            <div className="carousel_item h-[4rem] md:h-[6rem] lg:h-[9rem] w-10  ">
-              <div className="c-item h-[65%] w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200"></div>
+
+            <div className="carousel_item h-[4rem]  md:h-[6rem] lg:h-[9rem] lg:w-10   ">
+              <div className="c-item justify-around items-center w-[85%] flex h-[65%] md:w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200">
+                <div className="flex items-center w-[70%] h-[70%]  ml-[10%]">
+                  <div className="w-[40%] md:w-[35%] h-[90%] bg-gray-200 rounded-full"></div>
+                  <div className="w-[60%] md:w-[65%] h-full  flex flex-col justify-between pl-[2%]">
+                    <p className="text-[0.3rem] md:text-[1rem] font-bold md:font-normal">
+                      Development
+                    </p>
+                    <p className="text-[0.25rem] md:text-[1rem] font-bold md:font-normal">
+                      201 openings
+                    </p>
+                  </div>
+                </div>
+                <RightOutlined className="  lg:pr-0 text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] " />
+              </div>
             </div>
-            <div className="carousel_item h-[4rem] md:h-[6rem] lg:h-[9rem] w-10  ">
-              <div className="c-item h-[65%] w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200"></div>
+
+            <div className="carousel_item h-[4rem]  md:h-[6rem] lg:h-[9rem] lg:w-10   ">
+              <div className="c-item justify-around items-center w-[85%] flex h-[65%] md:w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200">
+                <div className="flex items-center w-[70%] h-[70%]  ml-[10%]">
+                  <div className="w-[40%] md:w-[35%] h-[90%] bg-gray-200 rounded-full"></div>
+                  <div className="w-[60%] md:w-[65%] h-full  flex flex-col justify-between pl-[2%]">
+                    <p className="text-[0.3rem] md:text-[1rem] font-bold md:font-normal">
+                      Accounting
+                    </p>
+                    <p className="text-[0.25rem] md:text-[1rem] font-bold md:font-normal">
+                      201 openings
+                    </p>
+                  </div>
+                </div>
+                <RightOutlined className="  lg:pr-0 text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] " />
+              </div>
             </div>
-            <div className="carousel_item h-[4rem] md:h-[6rem] lg:h-[9rem] w-10  ">
-              <div className="c-item h-[65%] w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200"></div>
+
+            <div className="carousel_item h-[4rem]  md:h-[6rem] lg:h-[9rem] lg:w-10   ">
+              <div className="c-item justify-around items-center w-[85%] flex h-[65%] md:w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200">
+                <div className="flex items-center w-[70%] h-[70%]  ml-[10%]">
+                  <div className="w-[40%] md:w-[35%] h-[90%] bg-gray-200 rounded-full"></div>
+                  <div className="w-[60%] md:w-[65%] h-full  flex flex-col justify-between pl-[2%]">
+                    <p className="text-[0.3rem] md:text-[1rem] font-bold md:font-normal">
+                      Finance
+                    </p>
+                    <p className="text-[0.25rem] md:text-[1rem] font-bold md:font-normal">
+                      201 openings
+                    </p>
+                  </div>
+                </div>
+                <RightOutlined className="  lg:pr-0 text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] " />
+              </div>
             </div>
-            <div className="carousel_item h-[4rem] md:h-[6rem] lg:h-[9rem] w-10  ">
-              <div className="c-item h-[65%] w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200"></div>
+
+            <div className="carousel_item h-[4rem]  md:h-[6rem] lg:h-[9rem] lg:w-10   ">
+              <div className="c-item justify-around items-center w-[85%] flex h-[65%] md:w-[70%]  mx-[15%] my-[5%]  border-2 rounded-xl border-gray-200">
+                <div className="flex items-center w-[70%] h-[70%]  ml-[10%]">
+                  <div className="w-[40%] md:w-[35%] h-[90%] bg-gray-200 rounded-full"></div>
+                  <div className="w-[60%] md:w-[65%] h-full  flex flex-col justify-between pl-[2%]">
+                    <p className="text-[0.3rem] md:text-[1rem] font-bold md:font-normal">
+                      Marketing
+                    </p>
+                    <p className="text-[0.25rem] md:text-[1rem] font-bold md:font-normal">
+                      201 openings
+                    </p>
+                  </div>
+                </div>
+                <RightOutlined className="  lg:pr-0 text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] " />
+              </div>
             </div>
           </Carousel>
         </div>
